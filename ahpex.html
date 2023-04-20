@@ -1,0 +1,30 @@
+<!-- 
+初期のページ
+タブを2にすると見やすい
+HTMLの解説
+http://www.tohoho-web.com/www.htm
+-->
+<html>
+	<head>
+			<!-- 文字コードは，ユニコード(utf-8)とする  -->
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="rcss.css" type="text/css" />
+	<title>好みの入力</title>
+	</head>
+	<body>
+		<p>好みの入力</p>
+				<!-- POSTという方式で，データをahpex2.phpに送る <form>から</form>の間 -->
+		<form method="POST" action="ahpex2.php">
+		<table border="1">
+			<tr>
+				<td>運動量</td>
+					<!-- 甘いもの，辛いものから選択し，SEL1という変数に入れる． checkedがついた方が初期に選ばれている -->
+				<td><input type="radio" name="SEL3" value="運動量が多い" checked="checked" />運動量が多い</td>
+				<td><input type="radio" name="SEL3" value="運動量が少ない" />運動量が少ない</td>
+			</tr>
+		</table>
+		<!--送信ボタンを用意 -->
+	<input type="submit" value="送信" />
+	</form>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+BODY { font-family: sans-serif }                        /* ゴシック系フォント */
+.sr { font-family: serif }                              /* 明朝系フォント */
+.cr { font-family: cursive }                            /* 草書体系フォント */
+.fn { font-family: fantasy }                            /* 装飾フォント */
+.mn { font-family: monospace }                          /* 等幅フォント */
+
+body{ 
+font-size : 12pt; 
+color : #000000; 
+background-color : white;
+}
+h1 {
+  font-size: 1.6em;
+  margin: 2em 0em 0em 0em;
+  padding: 0.2em 0.5em;
+  border-width: thin;
+  border-color: white;
+  /* border-width: 0px; */
+  background-color: #9D9;
+}
+
+
+
+h2 {
+  font-size: 1.2em;
+  margin: 2em 0em 0em 0em;
+  padding: 0.2em 0.5em;
+  border-width: thin;
+  border-color: white;
+  /* border-width: 0px; */
+  background-color: #9D9;
+}
+h3 {
+  margin: 1em 0em 0em 0em;
+  padding: 0.2em 0.5em;
+  border-style: solid;
+  border-width: 0px 0px 0px 20px;
+  border-color: #66C;
+}
+
+
+table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ text-align: left;
+  background: #555;
+  color: #000000;
+  padding: 7px 4px;}
+ 
+table tr td
+{ text-align: right;
+    background: #F5F5EC;
+  color: #000000;
+  border-top: 1px solid #FFF;}
+
